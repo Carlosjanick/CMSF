@@ -1,0 +1,78 @@
+
+.wpvl_auto_thumb_box{
+    position: relative;
+    width: 100%;
+    height: 250px;
+}
+
+.wpvl_auto_thumb_play {
+    position: absolute;
+    left: 40%;
+    top: 80px;
+}
+
+.video_lightbox_auto_anchor_image{
+	width: 100%;
+    height: auto;
+}
+
+/*um ponto a outro*/
+
+@media only screen and (min-width : 220px) and (max-width: 320px){
+    .wpvl_auto_thumb_play {
+	    top: 60px;
+	}
+}
+
+@media only screen and (min-width : 320px) and (max-width: 370px){
+    .wpvl_auto_thumb_play {
+	    top: 90px;
+	}
+}
+
+@media only screen and (min-width : 370px) and (max-width: 440px){
+    .wpvl_auto_thumb_play {
+	    top: 90px;
+	}
+}
+
+@media only screen and (min-width : 440px) and (max-width: 480px){
+    .wpvl_auto_thumb_play {
+	    top: 100px;
+	}
+}
+
+@media only screen and (min-width : 480px) and (max-width: 600px){
+     .wpvl_auto_thumb_play {
+     	left: 200px;
+	    top: 140px;
+	}
+}
+
+@media only screen and (min-width : 600px) and (max-width: 780px){
+    .wpvl_auto_thumb_play {
+     	left: 250px;
+	    top: 180px;
+	}
+}
+
+@media only screen and (min-width : 780px) and (max-width: 960px){
+    .wpvl_auto_thumb_play {
+     	left: 310px;
+	    top: 230px;
+	}
+}
+
+@media only screen and (min-width : 960px) and (max-width: 1000px){
+	.wpvl_auto_thumb_play {
+     	left: 310px;
+	    top: 230px;
+	}
+}
+
+@media only screen and (min-width : 1000px) and (max-width: 1200px){
+	.wpvl_auto_thumb_play {
+     	left: 80px;
+	    top: 55px;
+	}
+}
